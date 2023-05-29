@@ -14,6 +14,7 @@ Task ->
 Активируем виртуальное окружение (venv\scripts\activate), если оно не активировалось автоматически.
 Или вручную выбираем интерпретатор (file-> settings -> Project: BackEnd -> Python Interpreter) ,
 создаем виртуальное окружение (python -m venv venv) и активируем его (venv\scripts\activate).
+Устанавливаем все зависимости при помощи pip install -r requirements.txt
 В каталоге BackEnd создаем файл .env и прописываем в нем SEKRET_KEY = Сгенерированный ключ
 Ключ для Django можно сгенерировать https://djecrety.ir/
 Запускаем сервер из каталога project (python manage.py runserver)
